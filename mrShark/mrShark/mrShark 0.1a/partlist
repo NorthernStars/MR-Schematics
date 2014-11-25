@@ -1,0 +1,38 @@
+Partlist
+
+Exported from mrShark 01.a.sch at 31.10.12 07:45
+
+EAGLE Version 5.11.0 Copyright (c) 1988-2010 CadSoft
+
+Part     Value            Device           Package         Library                 Sheet
+
+BAT1+                     SMD1             SMD0,635-1,27   wirepad                 1
+BAT1-                     SMD1             SMD0,635-1,27   wirepad                 1
+BAT2+                     SMD1             SMD0,635-1,27   wirepad                 1
+BAT2-                     SMD1             SMD0,635-1,27   wirepad                 1
+C1       18p              C-EUC0402K       C0402K          rcl                     1
+C2       18p              C-EUC0402K       C0402K          rcl                     1
+C3       100n             C-EUC0402K       C0402K          rcl                     1
+CON1     DF-23C-12DS-0.5V DF-23C-12DS-0.5V DF23C-12DS      con-hirose              1
+CON2     SQT-104-01-L-S   PINHD-1X4        1X04            pinhead-2mm             1
+D1       BAS70-07S        BAS70-07S        SOT363_PHILIPS  diode                   1
+D2       BAS70-07S        BAS70-07S        SOT363_PHILIPS  diode                   1
+IC1      TINY4313MU       TINY4313MU       MLF20           avr-6                   1
+IC2      A3901            A3901            DFN10-3X3       allegro                 1
+IC3      MCP2120-I/SL     MCP2120          SO-14           microchip               1
+IC4      TFBS4711-TR1     TFBS4711TR1      TFBS4711        vishay                  1
+LED1     ASMT-YTD2-0BB02  PLCC6            PLCC6           led                     1
+LED2     ASMT-YTD2-0BB02  PLCC6            PLCC6           led                     1
+LED3     ASMT-YTD2-0BB02  PLCC6            PLCC6           led                     1
+LED4     ASMT-YTD2-0BB02  PLCC6            PLCC6           led                     1
+LED_STAT green            LEDCHIP-LED0603  CHIP-LED0603    led                     1
+MOTOR_L+                  SMD1             SMD0,635-1,27   wirepad                 1
+MOTOR_L-                  SMD1             SMD0,635-1,27   wirepad                 1
+MOTOR_R+                  SMD1             SMD0,635-1,27   wirepad                 1
+MOTOR_R-                  SMD1             SMD0,635-1,27   wirepad                 1
+Q2       14.7456MHz       CRYSTALCFPX-104  CFPX-104        crystal                 1
+R2       1k               R-EU_R0402       R0402           rcl                     1
+R3       1k               R-EU_R0402       R0402           rcl                     1
+S1       MCEMR-02-T       219-02           CTS-219-02      switch-dil              1
+T2       UMX3NTR          UMX3NTR-SOT363   SOT363_INFINEON transistor-small-signal 1
+T3       UMX3NTR          UMX3NTR-SOT363   SOT363_INFINEON transistor-small-signal 1

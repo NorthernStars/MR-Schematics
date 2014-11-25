@@ -1,0 +1,54 @@
+Partlist
+
+Exported from mrShark 05.a.sch at 02.05.13 14:55
+
+EAGLE Version 6.1.0 Copyright (c) 1988-2012 CadSoft
+
+Assembly variant: 
+
+Part     Value                  Device                  Package           Library                 Sheet
+
+C1       100n                   C-EUC1206               C1206             rcl                     1
+
+CON1                            PINHD-2X06_2.54-SMD     2X06SMD           pinhead-2               1
+CON2                            PINHD-1X04_2.54-SMD-90° 1X04SMD/90        pinhead-2               1
+
+IC1      MEGA48/88/168-PU       MEGA48/88/168-PU        DIL28-3           avr-6                   1
+
+IC2      DRV8830DGQRMSOP        DRV8830DGQRMSOP         SOP65P640X110-15N texas                   1
+IC3      TIR1000PSR             TIR1000PSR              SO-08             texas                   1
+
+IC4      TFBS4711TR1            TFBS4711TR1             TFBS4711          vishay                  1
+IC5      DRV8830DGQRMSOP        DRV8830DGQRMSOP         SOP65P640X110-15N texas                   1
+
+LED1     ASMT-YTD2-0BB02        PLCC6                   PLCC6             led                     1
+LED2     ASMT-YTD2-0BB02        PLCC6                   PLCC6             led                     1
+
+LED3     ASMT-YTD2-0BB02        PLCC6                   PLCC6             led                     1
+LED4     ASMT-YTD2-0BB02        PLCC6                   PLCC6             led                     1
+
+Q1       ASFLM1-1.8432MHZ-L-C-T MEMS'-SMD               MEMS              crystal                 1
+
+R1       1k                     R-EU_R1206              R1206             rcl                     1
+
+R2       27R                    R-EU_R1206              R1206             rcl                     1
+
+R3       1k                     R-EU_R1206              R1206             rcl                     1
+R4       1k                     R-EU_R1206              R1206             rcl                     1
+R5       1k                     R-EU_R1206              R1206             rcl                     1
+R6       1k                     R-EU_R1206              R1206             rcl                     1
+
+R7       100R                   R-EU_R1206              R1206             rcl                     1
+R8       100R                   R-EU_R1206              R1206             rcl                     1
+R9       100R                   R-EU_R1206              R1206             rcl                     1
+
+R10      0.95R                  R-EU_R1206              R1206             rcl                     1
+R11      0.95R                  R-EU_R1206              R1206             rcl                     1
+
+S1       MCEMR-02-T             219-02                  CTS-219-02        switch-dil              1
+
+T2       UMX3NTR                UMX3NTR-SOT363          SOT363_INFINEON   transistor-small-signal 1
+T3       UMX3NTR                UMX3NTR-SOT363          SOT363_INFINEON   transistor-small-signal 1
+
+U$1      PMEG2010EAR            PMEG2010EAR             SOD323-R          diode                   1
+U$2      PMEG2010EAR            PMEG2010EAR             SOD323-R          diode                   1
