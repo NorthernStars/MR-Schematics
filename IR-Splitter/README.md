@@ -9,3 +9,5 @@ It's recommended to use a heatsink on the mosfets.
 
 Test your installation with different intervals of load.
 MOSFET's temperature should not be above 80°C!
+
+It is possible to use this pcb as single layer board.
