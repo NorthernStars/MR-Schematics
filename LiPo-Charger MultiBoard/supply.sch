@@ -14860,7 +14860,7 @@ Source: www.kingbright.com</description>
 </class>
 </classes>
 <parts>
-<part name="IC1" library="v-reg-3" deviceset="AP1084" device=""/>
+<part name="IC1" library="v-reg-3" deviceset="AP1084" device="" value="AP1084D33"/>
 <part name="FRAME1" library="frames" deviceset="A5L-LOC" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -14877,27 +14877,27 @@ Source: www.kingbright.com</description>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="MALE_TL" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="MALE_TR" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="MALE_LT" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="MALE_LB" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
+<part name="MALE_TL" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="MALE_TR" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="MALE_LT" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="MALE_LB" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="130R"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="470R"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="green"/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
-<part name="FEMALE_RT" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="FEMALE_RB" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="FEMALE_BL" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="FEMALE_BR" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
+<part name="FEMALE_RT" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="FEMALE_RB" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="FEMALE_BL" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="FEMALE_BR" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="MALE_T" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-SMD-90°"/>
-<part name="MALE_L" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-SMD-90°"/>
-<part name="FEMALE_R" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-SMD-90°"/>
-<part name="FEMALE_B" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-SMD-90°"/>
+<part name="MALE_T" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-90°"/>
+<part name="MALE_L" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-90°"/>
+<part name="FEMALE_R" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-90°"/>
+<part name="FEMALE_B" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-90°"/>
 <part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="1k8"/>
 <part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="1k8"/>
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
@@ -14916,14 +14916,14 @@ www.northern-stars.de</text>
 <instance part="IC1" gate="G$1" x="91.44" y="114.3"/>
 <instance part="FRAME1" gate="G$1" x="0" y="0"/>
 <instance part="P+1" gate="1" x="58.42" y="127"/>
-<instance part="+3V1" gate="G$1" x="116.84" y="127"/>
+<instance part="+3V1" gate="G$1" x="119.38" y="127"/>
 <instance part="GND1" gate="1" x="91.44" y="96.52"/>
 <instance part="C1" gate="G$1" x="76.2" y="106.68"/>
 <instance part="GND2" gate="1" x="76.2" y="96.52"/>
-<instance part="C2" gate="G$1" x="106.68" y="106.68"/>
-<instance part="GND3" gate="1" x="106.68" y="96.52"/>
-<instance part="C3" gate="G$1" x="116.84" y="106.68"/>
-<instance part="GND4" gate="1" x="116.84" y="96.52"/>
+<instance part="C2" gate="G$1" x="109.22" y="106.68"/>
+<instance part="GND3" gate="1" x="109.22" y="96.52"/>
+<instance part="C3" gate="G$1" x="119.38" y="106.68"/>
+<instance part="GND4" gate="1" x="119.38" y="96.52"/>
 <instance part="C4" gate="G$1" x="58.42" y="106.68"/>
 <instance part="GND5" gate="1" x="58.42" y="96.52"/>
 <instance part="SUPPLY" gate="G$1" x="15.24" y="111.76" rot="R180"/>
@@ -14972,12 +14972,12 @@ www.northern-stars.de</text>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="106.68" y1="99.06" x2="106.68" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="99.06" x2="109.22" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND4" gate="1" pin="GND"/>
 <pinref part="C3" gate="G$1" pin="-"/>
-<wire x1="116.84" y1="99.06" x2="116.84" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="99.06" x2="119.38" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND5" gate="1" pin="GND"/>
@@ -15068,15 +15068,15 @@ www.northern-stars.de</text>
 <segment>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="99.06" y1="114.3" x2="106.68" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="114.3" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="114.3" x2="116.84" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="114.3" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="114.3" x2="119.38" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="106.68" y1="109.22" x2="106.68" y2="114.3" width="0.1524" layer="91"/>
-<junction x="106.68" y="114.3"/>
+<wire x1="109.22" y1="109.22" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
+<junction x="109.22" y="114.3"/>
 <pinref part="C3" gate="G$1" pin="+"/>
-<wire x1="116.84" y1="109.22" x2="116.84" y2="114.3" width="0.1524" layer="91"/>
-<junction x="116.84" y="114.3"/>
+<wire x1="119.38" y1="109.22" x2="119.38" y2="114.3" width="0.1524" layer="91"/>
+<junction x="119.38" y="114.3"/>
 </segment>
 <segment>
 <pinref part="MALE_TR" gate="A" pin="3"/>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -8144,8 +8144,8 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 </classes>
 <parts>
 <part name="IC1" library="microchip" deviceset="MCP73832T-2DCI/OT" device="" value="MCP73832T"/>
-<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="130R"/>
-<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="2k"/>
+<part name="R1" library="rcl" deviceset="R-EU_" device="R1206" value="470R"/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206" value="5k6"/>
 <part name="C1" library="rcl" deviceset="C-EU" device="C1206" value="4.7µ, 5V"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_1206" value="red"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
@@ -8155,8 +8155,8 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="microchip" deviceset="MCP73832T-2DCI/OT" device="" value="MCP73832T"/>
-<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="130R"/>
-<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="2k"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206" value="470R"/>
+<part name="R4" library="rcl" deviceset="R-EU_" device="R1206" value="5k6"/>
 <part name="C2" library="rcl" deviceset="C-EU" device="C1206" value="4.7µ, 5V"/>
 <part name="LED2" library="led" deviceset="LED" device="CHIPLED_1206" value="red"/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
@@ -8165,23 +8165,23 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <part name="P+4" library="supply1" deviceset="+5V" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="FRAME1" library="frames" deviceset="A4L-LOC" device=""/>
-<part name="MALE_TL" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="MALE_TR" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="MALE_LT" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="MALE_LB" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
+<part name="MALE_TL" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="MALE_TR" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="MALE_LT" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="MALE_LB" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
 <part name="P+5" library="supply1" deviceset="+5V" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="FEMALE_RT" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="FEMALE_RB" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="FEMALE_BL" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
-<part name="FEMALE_BR" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-SMD-90°"/>
+<part name="FEMALE_RT" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="FEMALE_RB" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="FEMALE_BL" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
+<part name="FEMALE_BR" library="pinhead-2" deviceset="PINHD-1X04" device="_2.54-90°"/>
 <part name="P+6" library="supply1" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="MALE_T" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-SMD-90°"/>
-<part name="MALE_L" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-SMD-90°"/>
-<part name="FEMALE_R" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-SMD-90°"/>
-<part name="FEMALE_B" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-SMD-90°"/>
+<part name="MALE_T" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-90°"/>
+<part name="MALE_L" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-90°"/>
+<part name="FEMALE_R" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-90°"/>
+<part name="FEMALE_B" library="pinhead-2" deviceset="PINHD-1X02" device="_2.54-90°"/>
 <part name="BOT_CON" library="con-hirose" deviceset="DF12-20" device="DS"/>
 <part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
@@ -8202,7 +8202,7 @@ www.northern-stars.de</text>
 </plain>
 <instances>
 <instance part="IC1" gate="A" x="109.22" y="152.4"/>
-<instance part="R1" gate="G$1" x="78.74" y="160.02" rot="R270"/>
+<instance part="R1" gate="G$1" x="78.74" y="160.02" rot="R90"/>
 <instance part="R2" gate="G$1" x="129.54" y="139.7" rot="R90"/>
 <instance part="C1" gate="G$1" x="88.9" y="139.7"/>
 <instance part="LED1" gate="G$1" x="83.82" y="152.4" rot="R90"/>
@@ -8213,7 +8213,7 @@ www.northern-stars.de</text>
 <instance part="P+2" gate="1" x="132.08" y="170.18"/>
 <instance part="GND4" gate="1" x="88.9" y="129.54"/>
 <instance part="IC2" gate="A" x="109.22" y="99.06"/>
-<instance part="R3" gate="G$1" x="78.74" y="106.68" rot="R270"/>
+<instance part="R3" gate="G$1" x="78.74" y="106.68" rot="R90"/>
 <instance part="R4" gate="G$1" x="129.54" y="86.36" rot="R90"/>
 <instance part="C2" gate="G$1" x="88.9" y="86.36"/>
 <instance part="LED2" gate="G$1" x="83.82" y="99.06" rot="R90"/>
@@ -8261,27 +8261,17 @@ www.northern-stars.de</text>
 <net name="N$2" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="152.4" x2="78.74" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="152.4" x2="78.74" y2="154.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="165.1" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="A" pin="VDD"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
 <wire x1="127" y1="149.86" x2="132.08" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="149.86" x2="132.08" y2="167.64" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="78.74" y1="111.76" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
-<pinref part="P+3" gate="1" pin="+5V"/>
 </segment>
 <segment>
 <pinref part="IC2" gate="A" pin="VDD"/>
@@ -8334,6 +8324,16 @@ www.northern-stars.de</text>
 <pinref part="P+7" gate="1" pin="+5V"/>
 <wire x1="160.02" y1="116.84" x2="160.02" y2="124.46" width="0.1524" layer="91"/>
 <junction x="160.02" y="116.84"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<wire x1="78.74" y1="165.1" x2="78.74" y2="167.64" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="P+3" gate="1" pin="+5V"/>
+<wire x1="78.74" y1="111.76" x2="78.74" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -8496,8 +8496,8 @@ www.northern-stars.de</text>
 <net name="N$5" class="0">
 <segment>
 <pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="R3" gate="G$1" pin="2"/>
 <wire x1="81.28" y1="99.06" x2="78.74" y2="99.06" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="99.06" x2="78.74" y2="101.6" width="0.1524" layer="91"/>
 </segment>
 </net>
