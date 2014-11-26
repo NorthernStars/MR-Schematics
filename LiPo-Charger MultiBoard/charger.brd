@@ -1958,24 +1958,6 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <wire x1="20.955" y1="24.13" x2="19.685" y2="25.4" width="0.3048" layer="16"/>
 </signal>
 </signals>
-<errors>
-<approved hash="4,1,ec52902a902eec56"/>
-<approved hash="4,1,cc1ab062b07ecc06"/>
-<approved hash="4,1,2a9056ec56ec2a90"/>
-<approved hash="4,1,62b006cc06cc62b0"/>
-<approved hash="4,1,d2d7aeabae6bd217"/>
-<approved hash="4,1,9af7fe8bfe4b9a37"/>
-<approved hash="4,1,abaa17d217d6abae"/>
-<approved hash="4,1,8be2379a37868bfe"/>
-<approved hash="4,16,ec52902a902eec56"/>
-<approved hash="4,16,cc1ab062b07ecc06"/>
-<approved hash="4,16,2a9056ec56ec2a90"/>
-<approved hash="4,16,62b006cc06cc62b0"/>
-<approved hash="4,16,d2d7aeabae6bd217"/>
-<approved hash="4,16,9af7fe8bfe4b9a37"/>
-<approved hash="4,16,abaa17d217d6abae"/>
-<approved hash="4,16,8be2379a37868bfe"/>
-</errors>
 </board>
 </drawing>
 </eagle>
