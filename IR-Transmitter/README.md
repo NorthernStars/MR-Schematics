@@ -13,3 +13,8 @@ If you add ~4 IR-LEDs it should work.
 
 Be aware that this board isn't build for high currents!
 For that use the IR-Splitter. Maybe you also should use a heatsink on the MOSFET.
+
+Order
+-----
+You can order this transmitter via www.dirtypcbs.com
+http://dirtypcbs.com/view.php?share=3090&accesskey=a8ba73ca83cacf54ef671324fa61ab19
