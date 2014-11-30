@@ -7,10 +7,7 @@ Cadsoft Eagle (http://www.cadsoftusa.com/?lang=en) is used to generate the these
 Included Files
 -----
 This repository includes files for the following hardware:
-* mrShark - Robot
-* mrShark Debugger - Robot Debug Head
-* mrShark Programmer - Robot Programmer Head
-* mrShark Blanco Adapter - Blanc Robot Head
+* mrShark - Robot mrShark including programmer and debug/charger boards
 * IR Testboard - Board for redirecting serial and IR data for debugging
 * IR Transmitter - USB Infrared transmitter
 * IR Splitter - Splitter for IR system with high current
