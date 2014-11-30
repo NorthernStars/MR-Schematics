@@ -11,5 +11,5 @@ This repository includes files for the following hardware:
 * IR Testboard - Board for redirecting serial and IR data for debugging
 * IR Transmitter - USB Infrared transmitter
 * IR Splitter - Splitter for IR system with high current
-* LiPo-Charger MultiBoard - Small Robot LiPo charger that are connectable to any size of charger station
-* LiPo-CHarger-Station - 3x3 Robot LiPo charger station with microcontroller
+* LiPo-Charger MultiBoard - Small Robot LiPo chargers that are connectable to any size of charger station
+* LiPo-Charger-Station - 3x3 Robot LiPo charger station with microcontroller
