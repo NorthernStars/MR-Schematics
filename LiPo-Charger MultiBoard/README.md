@@ -7,8 +7,8 @@ This charger consists of several small 50x50mm board that can get connected to e
 Order online
 ------------
 The pcbs can be ordered very cheap from www.dirtypcbs.com
-* Charger: http://dirtypcbs.com/view.php?share=3072&accesskey=3e90b71e1339df45997b6c16d70f7661
-* Supply: http://dirtypcbs.com/view.php?share=3073&accesskey=dc73475984a42040475eb3536d891cbc
+* Charger: http://dirtypcbs.com/view.php?share=3157&accesskey=f87f3095ae1349974c80dd4a647c85f4
+* Supply: http://dirtypcbs.com/view.php?share=3158&accesskey=d8e7d692d385bc674d54f8e41f2b1a86
 
 The electronic parts should get ordered from Farnell (http://www.farnell.com) and Reichelt (https://secure.reichelt.de/index.html?LANGUAGE=EN).
 
