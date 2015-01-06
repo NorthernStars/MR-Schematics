@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -139,6 +139,8 @@
 <text x="11.938" y="28.194" size="0.889" layer="37" font="vector" ratio="15">SCL</text>
 <text x="9.144" y="11.938" size="0.889" layer="37" font="vector" ratio="15" rot="R90">BAT1</text>
 <text x="9.398" y="6.096" size="0.889" layer="37" font="vector" ratio="15" rot="R90">BAt2</text>
+<text x="4.318" y="16.764" size="0.6096" layer="51" font="vector" ratio="15">1</text>
+<text x="4.318" y="10.16" size="0.6096" layer="51" font="vector" ratio="15">2</text>
 </plain>
 <libraries>
 <library name="con-hirose">
@@ -1966,7 +1968,7 @@ Source: http://www.osram.convergy.de/ ... Lb_q993.pdf</description>
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;font size=&quot;2&quot;&gt;&lt;font color= &quot;blue&quot;&gt;&lt;b&gt;Hinweise zum LeitOn - Standard-Eagle-DRU - 1- und  2-Lagen DK - Rev 2.0&lt;/font&gt;&lt;/b&gt;
 &lt;br&gt;
 Diese DRU-Datei enthält viele erforderliche Design Einstellungen, damit Ihre Standardleiterplatte bei uns fehlerfrei und ohne Zusatzkosten produziert werden kann. Die Optionen Shapes und Misc sind nicht relevant und der minimale und maximale Wert für Roundness Shapes kann frei gewählt werden. Nach unten abweichende Design-Regeln sind möglich, können jedoch Aufpreise erfordern. Geringere Vorgaben sind unter Umständen möglich. Hier sprechen Sie uns bitte an oder zeigen uns das entsprechende Layout. Ferner ist es bei einfachen Layouts nicht zwingend sinnvoll, alles mit diesen DRU-Minimalvorgaben zu layouten. Wenn es der Platz erlaubt ist es sinnvoller, breitere Abstände, Strukturen und Bohrungen einzuplanen, so dass eine reibungslose Fertigung garantiert werden kann.
