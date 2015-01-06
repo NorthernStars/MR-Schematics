@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -164,8 +164,8 @@
 <rectangle x1="2.032" y1="11.303" x2="2.413" y2="11.684" layer="1"/>
 <rectangle x1="10.795" y1="25.654" x2="11.176" y2="26.035" layer="1"/>
 <rectangle x1="10.795" y1="25.654" x2="11.176" y2="26.035" layer="16"/>
-<text x="8.509" y="28.575" size="0.6096" layer="37" font="vector" ratio="15">BAT+</text>
-<text x="15.621" y="28.575" size="0.6096" layer="37" font="vector" ratio="15">BAT-</text>
+<text x="8.255" y="29.845" size="0.6096" layer="37" font="vector" ratio="15">BAT+</text>
+<text x="15.748" y="29.845" size="0.6096" layer="37" font="vector" ratio="15">BAT-</text>
 <text x="24.638" y="19.558" size="0.6096" layer="37" font="vector" ratio="15" rot="R90">MOTOR</text>
 <text x="24.003" y="19.558" size="0.6096" layer="37" font="vector" ratio="15" rot="R90">-</text>
 <text x="23.876" y="21.844" size="0.6096" layer="37" font="vector" ratio="15" rot="R90">+</text>
@@ -176,6 +176,8 @@
 <text x="1.016" y="20.574" size="0.6096" layer="37" font="vector" ratio="15">OFF</text>
 <rectangle x1="24.003" y1="17.145" x2="24.384" y2="17.526" layer="16"/>
 <rectangle x1="24.003" y1="17.145" x2="24.384" y2="17.526" layer="1"/>
+<text x="9.906" y="28.702" size="0.6096" layer="51" font="vector" ratio="15">1</text>
+<text x="7.747" y="28.702" size="0.6096" layer="51" font="vector" ratio="15">2</text>
 </plain>
 <libraries>
 <library name="rcl">
@@ -2067,9 +2069,6 @@ Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte expl
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
-<param name="AutoGrid" value="1"/>
-<param name="Efforts" value="0"/>
-<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
