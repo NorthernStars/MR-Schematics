@@ -16,5 +16,5 @@ For that use the IR-Splitter. Maybe you also should use a heatsink on the MOSFET
 
 Order
 -----
-You can order this transmitter via www.dirtypcbs.com [no updated version available]
-* 
+You can order this transmitter via www.dirtypcbs.com
+* http://dirtypcbs.com/view.php?share=3876&accesskey=a4be5c8c025c9f4713186b7ca5dc06cf
