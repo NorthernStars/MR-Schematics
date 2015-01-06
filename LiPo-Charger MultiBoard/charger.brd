@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -103,6 +103,8 @@
 <text x="19.685" y="40.64" size="1.27" layer="21">NorthernStars</text>
 <text x="15.875" y="38.735" size="1.27" layer="21">LiPo-Charger MultiBoard</text>
 <text x="15.875" y="36.83" size="1.27" layer="21">v. 0.0.1a</text>
+<text x="46.355" y="31.75" size="1.016" layer="51" font="vector" ratio="15">1</text>
+<text x="46.355" y="17.78" size="1.016" layer="51" font="vector" ratio="15">2</text>
 </plain>
 <libraries>
 <library name="microchip">
