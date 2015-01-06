@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.1.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2067,6 +2067,9 @@ Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte expl
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -2586,12 +2589,12 @@ Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte expl
 <via x="9.398" y="18.161" extent="1-16" drill="0.2" shape="octagon"/>
 <via x="15.113" y="11.938" extent="1-16" drill="0.2" shape="octagon"/>
 <wire x1="14.81" y1="15.494" x2="13.716" y2="15.494" width="0.254" layer="1"/>
-<wire x1="13.716" y1="15.494" x2="13.462" y2="15.24" width="0.254" layer="1"/>
 <wire x1="13.462" y1="15.24" x2="11.2" y2="15.24" width="0.254" layer="1"/>
 <wire x1="11.2" y1="15.24" x2="11.19" y2="15.25" width="0.254" layer="1"/>
 <wire x1="8.509" y1="12.826" x2="7.748" y2="12.826" width="0.127" layer="16"/>
 <wire x1="7.748" y1="12.826" x2="7.62" y2="12.954" width="0.127" layer="16"/>
 <contactref element="C5" pad="2"/>
+<wire x1="13.716" y1="15.494" x2="13.462" y2="15.24" width="0.254" layer="1"/>
 <wire x1="7.631" y1="12.939" x2="7.62" y2="12.954" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="SDA">
