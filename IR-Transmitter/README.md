@@ -11,8 +11,11 @@ You can use the jumper JP1 to use the USB 5V bus power to get a portable IR-Tran
 Take care that the maximum output current of the USB bus is 500mA.
 If you add ~4 IR-LEDs it should work.
 
+For small mobile IR-Transmitter select a suitable resistor for R2 and don't assemble R3.
+
 Be aware that this board isn't build for high currents!
 For that use the IR-Splitter. Maybe you also should use a heatsink on the MOSFET.
+To do so, bridge resistor R2 and use 1k ohm resistor for R3. Connect IR data signal for IR-Splitter to LED- and GND of IR-Splitter to GND.
 
 Order
 -----
