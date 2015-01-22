@@ -13811,11 +13811,13 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="V+" device=""/>
 <part name="VCC1" library="supply1" deviceset="VCCIO" device=""/>
+<part name="R2" library="rcl" deviceset="R-EU_" device="R1206"/>
+<part name="R3" library="rcl" deviceset="R-EU_" device="R1206"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="215.9" y="20.32" size="2.54" layer="94">v3.0.1</text>
+<text x="215.9" y="20.32" size="2.54" layer="94">v3.0.2</text>
 <text x="162.56" y="20.32" size="2.54" layer="94">NorthernStars</text>
 <text x="162.56" y="17.78" size="1.778" layer="94">FH Kiel -Fachbereich IuE</text>
 <text x="162.56" y="12.7" size="1.778" layer="94">Grenzstraße 5</text>
@@ -13854,17 +13856,19 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="C7" gate="G$1" x="50.8" y="139.7"/>
 <instance part="+3V2" gate="G$1" x="50.8" y="152.4"/>
 <instance part="GND2" gate="1" x="50.8" y="119.38"/>
-<instance part="JP1" gate="A" x="73.66" y="91.44"/>
-<instance part="P+4" gate="VCC" x="83.82" y="106.68"/>
+<instance part="JP1" gate="A" x="81.28" y="88.9"/>
+<instance part="P+4" gate="VCC" x="91.44" y="104.14"/>
 <instance part="VCC2" gate="G$1" x="83.82" y="152.4"/>
 <instance part="VCC3" gate="G$1" x="96.52" y="152.4"/>
 <instance part="VCC4" gate="G$1" x="129.54" y="152.4"/>
 <instance part="VCC5" gate="G$1" x="104.14" y="63.5"/>
 <instance part="VCC6" gate="G$1" x="152.4" y="63.5"/>
 <instance part="SUPPLY1" gate="1" x="33.02" y="111.76"/>
-<instance part="P+1" gate="VCC" x="218.44" y="137.16"/>
-<instance part="SUPPLY2" gate="1" x="53.34" y="109.22"/>
-<instance part="VCC1" gate="G$1" x="60.96" y="109.22"/>
+<instance part="P+1" gate="VCC" x="218.44" y="144.78"/>
+<instance part="SUPPLY2" gate="1" x="60.96" y="106.68"/>
+<instance part="VCC1" gate="G$1" x="68.58" y="106.68"/>
+<instance part="R2" gate="G$1" x="218.44" y="132.08" rot="R90"/>
+<instance part="R3" gate="G$1" x="218.44" y="116.84" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -14017,6 +14021,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <wire x1="218.44" y1="111.76" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="LED-" gate="G$1" pin="P"/>
 <pinref part="U$1" gate="G$1" pin="P$2"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+<junction x="218.44" y="111.76"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -14119,8 +14125,8 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="JP1" gate="A" pin="1"/>
 <pinref part="VCC1" gate="G$1" pin="VCCIO"/>
-<wire x1="68.58" y1="93.98" x2="60.96" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="60.96" y1="93.98" x2="60.96" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="91.44" x2="68.58" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="91.44" x2="68.58" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -14140,26 +14146,35 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
 <pinref part="SUPPLY2" gate="1" pin="V+"/>
-<wire x1="68.58" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="91.44" x2="53.34" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="76.2" y1="88.9" x2="60.96" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="88.9" x2="60.96" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VCC" class="0">
 <segment>
-<wire x1="233.68" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="121.92" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="LED+" gate="G$1" pin="P"/>
-<pinref part="P+1" gate="VCC" pin="VCC"/>
-</segment>
-<segment>
 <pinref part="JP1" gate="A" pin="2"/>
 <pinref part="P+4" gate="VCC" pin="VCC"/>
-<wire x1="76.2" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="93.98" x2="83.82" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="91.44" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="91.44" x2="91.44" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="JP1" gate="A" pin="4"/>
-<wire x1="76.2" y1="91.44" x2="83.82" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="91.44" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
-<junction x="83.82" y="93.98"/>
+<wire x1="83.82" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="88.9" x2="91.44" y2="91.44" width="0.1524" layer="91"/>
+<junction x="91.44" y="91.44"/>
+</segment>
+<segment>
+<pinref part="P+1" gate="VCC" pin="VCC"/>
+<pinref part="R2" gate="G$1" pin="2"/>
+<wire x1="218.44" y1="137.16" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="LED+" gate="G$1" pin="P"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="233.68" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="121.92" x2="218.44" y2="127" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<junction x="218.44" y="121.92"/>
 </segment>
 </net>
 </nets>
