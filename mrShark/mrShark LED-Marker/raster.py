@@ -1,0 +1,42 @@
+# Calculates raster positions
+
+# Dimension in mm
+width = 26.0
+height = 30.5
+
+nX = 5
+nY = 5
+
+nLED = 2
+dxLED = 2.0
+
+useEmptyBorder = True
+
+wRaster = round( width / nX, 3 )
+hRaster = round( height / nY, 3 )
+bRasterX = round( (wRaster - dxLED * (nLED - 1)) / 2, 3 )
+
+print "width =", width
+print "height =", height
+print "#x raster =", nX
+print "#y raster =", nY
+print "leds / raster =", nLED
+print "dx led =", dxLED
+print "width raster =", wRaster
+print "height raster =", hRaster
+print "x border raster =", bRasterX
+
+bLine = False
+n = 1
+
+for y in range(nY):
+	for x in range(nX):		
+		if not useEmptyBorder or (y > 0 and y < nY-1 and x > 0 and x < nX-1):
+			for i in range(nLED):
+				print "#"+str(n)+":\t", round( x * wRaster + bRasterX + i * dxLED, 3 ), "\t", round( height - y * hRaster - hRaster / 2, 3 )
+				n += 1
+				if bLine:
+					print "---------------------------"
+					bLine = False
+				else:
+					bLine = True
