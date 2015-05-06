@@ -5795,13 +5795,9 @@ Source: www.kingbright.com</description>
 <segment>
 <pinref part="CON1" gate="CON$1" pin="15"/>
 <wire x1="167.64" y1="53.34" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
-<wire x1="172.72" y1="53.34" x2="172.72" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="CON$1" pin="16"/>
-<wire x1="172.72" y1="55.88" x2="167.64" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="CON$1" pin="12"/>
 <wire x1="167.64" y1="45.72" x2="172.72" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="172.72" y1="45.72" x2="172.72" y2="53.34" width="0.1524" layer="91"/>
-<junction x="172.72" y="53.34"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="172.72" y1="45.72" x2="172.72" y2="38.1" width="0.1524" layer="91"/>
 <junction x="172.72" y="45.72"/>
