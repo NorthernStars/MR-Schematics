@@ -123,7 +123,7 @@
 <wire x1="21" y1="3" x2="21" y2="-0.5" width="0" layer="20"/>
 <text x="8.5" y="28.25" size="0.8128" layer="25" font="vector" ratio="15">NorthernStars</text>
 <text x="8.5" y="26.25" size="0.6096" layer="25" font="vector" ratio="15">LED-Marker
-v.0.0.1a</text>
+v.0.0.1</text>
 <wire x1="5" y1="26" x2="5" y2="19" width="0" layer="20"/>
 <wire x1="0" y1="26" x2="5" y2="26" width="0" layer="20"/>
 <wire x1="0" y1="19" x2="5" y2="19" width="0" layer="20"/>
@@ -1570,7 +1570,7 @@ design rules under a new name.</description>
 <element name="LED1" library="led" package="CHIPLED_0603" value="" x="10.3" y="19.6" smashed="yes">
 <attribute name="VALUE" x="12.205" y="18.33" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="LED2" library="led" package="CHIPLED_0603" value="" x="11.3" y="19.6" smashed="yes">
+<element name="LED2" library="led" package="CHIPLED_0603" value="LW L283" x="11.3" y="19.6" smashed="yes">
 <attribute name="VALUE" x="13.205" y="18.33" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="LED3" library="led" package="CHIPLED_0603" value="" x="12.5" y="19.6" smashed="yes">
@@ -1726,7 +1726,6 @@ design rules under a new name.</description>
 <via x="5.75" y="15.25" extent="1-16" drill="0.3" shape="octagon"/>
 <wire x1="5.75" y1="15.25" x2="7.25" y2="15.25" width="0.254" layer="16"/>
 <via x="6.29" y="21.032" extent="1-16" drill="0.3" shape="octagon"/>
-<wire x1="18.6" y1="15" x2="18.6" y2="17" width="0.254" layer="1"/>
 <wire x1="18.6" y1="13" x2="18.6" y2="15" width="0.254" layer="1"/>
 <via x="21.5" y="26.254" extent="1-16" drill="0.3" shape="octagon"/>
 <wire x1="18.6" y1="17" x2="18.6" y2="17.1" width="0.254" layer="1"/>
@@ -1763,6 +1762,16 @@ design rules under a new name.</description>
 <wire x1="23.114" y1="19.558" x2="23.114" y2="25.654" width="0.254" layer="1"/>
 <wire x1="23.114" y1="25.654" x2="22.514" y2="26.254" width="0.254" layer="1"/>
 <wire x1="21.5" y1="26.254" x2="22.514" y2="26.254" width="0.254" layer="1"/>
+<wire x1="18.6" y1="15" x2="18.782" y2="15" width="0.3048" layer="1"/>
+<wire x1="18.782" y1="15" x2="19.812" y2="13.97" width="0.3048" layer="1"/>
+<via x="19.812" y="13.97" extent="1-16" drill="0.3" shape="octagon"/>
+<wire x1="19.812" y1="13.97" x2="19.812" y2="15.24" width="0.3048" layer="16"/>
+<wire x1="19.812" y1="15.24" x2="20.574" y2="16.002" width="0.3048" layer="16"/>
+<via x="20.574" y="16.002" extent="1-16" drill="0.3" shape="octagon"/>
+<wire x1="20.574" y1="16.002" x2="20.574" y2="16.256" width="0.3048" layer="1"/>
+<wire x1="20.574" y1="16.256" x2="19.812" y2="17.018" width="0.3048" layer="1"/>
+<wire x1="19.812" y1="17.018" x2="18.618" y2="17.018" width="0.3048" layer="1"/>
+<wire x1="18.618" y1="17.018" x2="18.6" y2="17" width="0.3048" layer="1"/>
 </signal>
 <signal name="GND">
 <contactref element="CON1" pad="15"/>
@@ -2072,13 +2081,13 @@ design rules under a new name.</description>
 <contactref element="LED12" pad="C"/>
 <contactref element="LED11" pad="C"/>
 <wire x1="14.7" y1="16" x2="15.7" y2="16" width="0.3048" layer="1"/>
-<wire x1="15.7" y1="16" x2="19.5" y2="16" width="0.254" layer="1"/>
-<via x="20.25" y="14.25" extent="1-16" drill="0.3" shape="octagon"/>
-<wire x1="20.25" y1="13.25" x2="20.625" y2="12.875" width="0.254" layer="16"/>
-<wire x1="23.4178" y1="12.875" x2="20.625" y2="12.875" width="0.254" layer="16"/>
-<wire x1="20.25" y1="13.25" x2="20.25" y2="14.25" width="0.254" layer="16"/>
-<wire x1="20.25" y1="14.25" x2="20.25" y2="15.25" width="0.254" layer="1"/>
-<wire x1="20.25" y1="15.25" x2="19.5" y2="16" width="0.254" layer="1"/>
+<via x="21.266" y="13.996" extent="1-16" drill="0.3" shape="octagon"/>
+<wire x1="23.4178" y1="12.875" x2="21.669" y2="12.875" width="0.3048" layer="16"/>
+<wire x1="15.7" y1="16" x2="19.56" y2="16" width="0.3048" layer="1"/>
+<wire x1="19.56" y1="16" x2="21.266" y2="14.294" width="0.3048" layer="1"/>
+<wire x1="21.266" y1="14.294" x2="21.266" y2="13.996" width="0.3048" layer="1"/>
+<wire x1="21.669" y1="12.875" x2="21.266" y2="13.278" width="0.3048" layer="16"/>
+<wire x1="21.266" y1="13.278" x2="21.266" y2="13.996" width="0.3048" layer="16"/>
 </signal>
 <signal name="N$19">
 <contactref element="IC1" pad="10"/>
