@@ -123,7 +123,7 @@
 <wire x1="21" y1="3" x2="21" y2="-0.5" width="0" layer="20"/>
 <text x="8.5" y="28.25" size="0.8128" layer="25" font="vector" ratio="15">NorthernStars</text>
 <text x="8.5" y="26.25" size="0.6096" layer="25" font="vector" ratio="15">LED-Marker
-v.0.0.1</text>
+v.0.0.2</text>
 <wire x1="5" y1="26" x2="5" y2="19" width="0" layer="20"/>
 <wire x1="0" y1="26" x2="5" y2="26" width="0" layer="20"/>
 <wire x1="0" y1="19" x2="5" y2="19" width="0" layer="20"/>
