@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9457,7 +9457,7 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <part name="LED6" library="led" deviceset="LED" device="CHIPLED_0603" value="red"/>
 <part name="R33" library="rcl" deviceset="R-EU_" device="R0201" value="200R"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="rcl" deviceset="R-EU_" device="R0201" value="100R"/>
+<part name="R6" library="rcl" deviceset="R-EU_" device="R0201" value="87R"/>
 <part name="LED1" library="led" deviceset="LED" device="CHIPLED_0603" value="green"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="P+9" library="supply1" deviceset="VCC" device=""/>

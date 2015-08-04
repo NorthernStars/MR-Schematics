@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -463,13 +463,9 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <segment>
 <pinref part="CON1" gate="CON$1" pin="15"/>
 <wire x1="124.46" y1="127" x2="129.54" y2="127" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="127" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="CON1" gate="CON$1" pin="16"/>
-<wire x1="129.54" y1="129.54" x2="124.46" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="CON1" gate="CON$1" pin="12"/>
 <wire x1="124.46" y1="119.38" x2="129.54" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="119.38" x2="129.54" y2="127" width="0.1524" layer="91"/>
-<junction x="129.54" y="127"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <wire x1="129.54" y1="119.38" x2="129.54" y2="111.76" width="0.1524" layer="91"/>
 <junction x="129.54" y="119.38"/>

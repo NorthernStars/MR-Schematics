@@ -2225,7 +2225,7 @@ Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte expl
 <element name="C2" library="rcl" package="C0201" value="100n" x="10.414" y="17.653" rot="MR45"/>
 <element name="LED6" library="led" package="CHIPLED_0603" value="red" x="8.255" y="9.652" rot="R180"/>
 <element name="R33" library="rcl" package="R0201" value="200R" x="8.255" y="11.557" rot="R90"/>
-<element name="R6" library="rcl" package="R0201" value="100R" x="4.318" y="14.224" rot="R270"/>
+<element name="R6" library="rcl" package="R0201" value="87R" x="4.318" y="14.224" rot="R270"/>
 <element name="LED1" library="led" package="CHIPLED_0603" value="green" x="2.794" y="14.224" rot="R90"/>
 <element name="R7" library="rcl" package="R0201" value="1k8" x="7.62" y="0.762" rot="R270"/>
 <element name="R8" library="rcl" package="R0201" value="1k8" x="8.255" y="0.762" rot="R270"/>

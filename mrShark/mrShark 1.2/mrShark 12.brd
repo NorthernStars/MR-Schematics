@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3329,45 +3329,18 @@ Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte expl
 <wire x1="8.187" y1="5.647" x2="7.874" y2="5.334" width="0.127" layer="1"/>
 </signal>
 <signal name="BAT1+">
-<contactref element="IC8" pad="1"/>
 <contactref element="SWITCH_PWR" pad="1"/>
 <contactref element="D1" pad="A"/>
 <wire x1="7.21" y1="24.622" x2="6.366" y2="24.622" width="0.381" layer="1"/>
 <wire x1="6.366" y1="24.622" x2="6.096" y2="24.892" width="0.381" layer="1"/>
 <wire x1="6.096" y1="24.892" x2="6.096" y2="26.459" width="0.381" layer="1"/>
-<wire x1="10.5156" y1="24.6126" x2="10.414" y2="24.7142" width="0.254" layer="1"/>
-<wire x1="10.414" y1="24.7142" x2="10.414" y2="25.146" width="0.254" layer="1"/>
-<via x="10.414" y="25.146" extent="1-16" drill="0.2" diameter="0.5" shape="octagon"/>
-<wire x1="10.414" y1="25.146" x2="10.414" y2="25.273" width="0.254" layer="16"/>
-<wire x1="10.414" y1="25.273" x2="10.033" y2="25.654" width="0.254" layer="16"/>
-<wire x1="10.033" y1="25.654" x2="7.747" y2="25.654" width="0.254" layer="16"/>
-<via x="7.747" y="25.654" extent="1-16" drill="0.2" diameter="0.5" shape="octagon"/>
-<wire x1="7.747" y1="25.654" x2="7.747" y2="25.159" width="0.254" layer="1"/>
-<wire x1="7.747" y1="25.159" x2="7.21" y2="24.622" width="0.254" layer="1"/>
 </signal>
 <signal name="BAT2+">
-<contactref element="IC8" pad="2"/>
 <contactref element="SWITCH_PWR" pad="4"/>
 <contactref element="D2" pad="A"/>
 <wire x1="1.56" y1="24.622" x2="3.413" y2="24.622" width="0.381" layer="1"/>
 <wire x1="3.413" y1="24.622" x2="3.937" y2="25.146" width="0.381" layer="1"/>
 <wire x1="3.937" y1="25.146" x2="3.937" y2="26.459" width="0.381" layer="1"/>
-<wire x1="10.5156" y1="24.13" x2="12.065" y2="24.13" width="0.254" layer="1"/>
-<wire x1="12.065" y1="24.13" x2="12.319" y2="23.876" width="0.254" layer="1"/>
-<wire x1="12.319" y1="23.876" x2="12.319" y2="22.352" width="0.254" layer="1"/>
-<wire x1="12.319" y1="22.352" x2="12.065" y2="22.098" width="0.254" layer="1"/>
-<wire x1="12.065" y1="22.098" x2="10.033" y2="22.098" width="0.254" layer="1"/>
-<wire x1="10.033" y1="22.098" x2="8.763" y2="20.828" width="0.254" layer="1"/>
-<wire x1="8.763" y1="20.828" x2="6.731" y2="20.828" width="0.254" layer="1"/>
-<via x="6.731" y="20.828" extent="1-16" drill="0.2" diameter="0.5" shape="octagon"/>
-<wire x1="6.731" y1="20.828" x2="6.096" y2="20.828" width="0.254" layer="16"/>
-<wire x1="6.096" y1="20.828" x2="4.572" y2="22.352" width="0.254" layer="16"/>
-<wire x1="4.572" y1="22.352" x2="3.048" y2="22.352" width="0.254" layer="16"/>
-<wire x1="3.048" y1="22.352" x2="2.032" y2="23.368" width="0.254" layer="16"/>
-<wire x1="2.032" y1="23.368" x2="1.524" y2="23.368" width="0.254" layer="16"/>
-<via x="1.524" y="23.368" extent="1-16" drill="0.2" diameter="0.5" shape="octagon"/>
-<wire x1="1.524" y1="23.368" x2="1.524" y2="24.638" width="0.254" layer="1"/>
-<wire x1="1.524" y1="24.638" x2="1.56" y2="24.622" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$28">
 <contactref element="LED6" pad="A"/>
@@ -3585,9 +3558,13 @@ Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte expl
 <wire x1="7.62" y1="22.987" x2="8.636" y2="22.987" width="0.381" layer="1"/>
 <wire x1="8.636" y1="22.987" x2="9.144" y2="23.495" width="0.381" layer="1"/>
 <wire x1="9.144" y1="23.495" x2="9.144" y2="24.638" width="0.381" layer="1"/>
-<wire x1="9.144" y1="24.638" x2="9.144" y2="26.162" width="0.381" layer="1"/>
+<wire x1="9.144" y1="24.638" x2="9.144" y2="24.765" width="0.381" layer="1"/>
+<wire x1="9.144" y1="24.765" x2="9.144" y2="26.162" width="0.381" layer="1"/>
 <wire x1="9.144" y1="26.162" x2="10.414" y2="27.432" width="0.381" layer="1"/>
 <wire x1="9.144" y1="24.6126" x2="9.144" y2="24.638" width="0.254" layer="1"/>
+<contactref element="IC8" pad="1"/>
+<wire x1="10.5156" y1="24.6126" x2="9.144" y2="24.6126" width="0.254" layer="1"/>
+<wire x1="9.144" y1="24.638" x2="9.144" y2="24.765" width="0.254" layer="1"/>
 </signal>
 <signal name="BAT2">
 <contactref element="BAT2+1" pad="1"/>
@@ -3598,7 +3575,17 @@ Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte expl
 <wire x1="6.604" y1="23.495" x2="6.096" y2="22.987" width="0.381" layer="1"/>
 <wire x1="6.096" y1="22.987" x2="6.096" y2="22.479" width="0.381" layer="1"/>
 <wire x1="6.096" y1="22.479" x2="5.739" y2="22.122" width="0.381" layer="1"/>
-<wire x1="8.382" y1="23.749" x2="8.382" y2="27.432" width="0.381" layer="1"/>
+<wire x1="8.382" y1="23.749" x2="8.382" y2="25.781" width="0.381" layer="1"/>
+<contactref element="IC8" pad="2"/>
+<wire x1="8.382" y1="25.781" x2="8.382" y2="27.432" width="0.381" layer="1"/>
+<wire x1="10.5156" y1="24.13" x2="11.684" y2="24.13" width="0.127" layer="1"/>
+<via x="11.684" y="24.13" extent="1-16" drill="0.6" shape="square"/>
+<wire x1="11.684" y1="24.13" x2="10.033" y2="24.13" width="0.127" layer="16"/>
+<wire x1="10.033" y1="24.13" x2="9.906" y2="24.257" width="0.127" layer="16"/>
+<wire x1="9.906" y1="24.257" x2="9.906" y2="25.527" width="0.127" layer="16"/>
+<wire x1="9.906" y1="25.527" x2="9.652" y2="25.781" width="0.127" layer="16"/>
+<wire x1="9.652" y1="25.781" x2="8.382" y2="25.781" width="0.127" layer="16"/>
+<via x="8.382" y="25.781" extent="1-16" drill="0.2" diameter="0.5" shape="octagon"/>
 </signal>
 </signals>
 </board>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.1.0">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -11005,26 +11005,18 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 </net>
 <net name="BAT1+" class="0">
 <segment>
-<pinref part="IC8" gate="A" pin="V1"/>
-<wire x1="121.92" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
-<label x="111.76" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SWITCH_PWR" gate="T1" pin="O"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="81.28" y1="144.78" x2="83.82" y2="144.78" width="0.1524" layer="91"/>
+<label x="83.82" y="144.78" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="BAT2+" class="0">
 <segment>
-<pinref part="IC8" gate="A" pin="V2"/>
-<wire x1="121.92" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
-<label x="111.76" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="SWITCH_PWR" gate="T1" pin="O1"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 <wire x1="81.28" y1="134.62" x2="83.82" y2="134.62" width="0.1524" layer="91"/>
+<label x="83.82" y="134.62" size="1.27" layer="95" rot="R90"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -11256,6 +11248,11 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <wire x1="66.04" y1="142.24" x2="71.12" y2="142.24" width="0.1524" layer="91"/>
 <label x="48.26" y="149.86" size="1.27" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC8" gate="A" pin="V1"/>
+<wire x1="121.92" y1="53.34" x2="111.76" y2="53.34" width="0.1524" layer="91"/>
+<label x="111.76" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="BAT2" class="0">
 <segment>
@@ -11265,6 +11262,11 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <pinref part="SWITCH_PWR" gate="T1" pin="P1"/>
 <wire x1="66.04" y1="132.08" x2="71.12" y2="132.08" width="0.1524" layer="91"/>
 <label x="48.26" y="124.46" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="A" pin="V2"/>
+<wire x1="121.92" y1="50.8" x2="111.76" y2="50.8" width="0.1524" layer="91"/>
+<label x="111.76" y="50.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>

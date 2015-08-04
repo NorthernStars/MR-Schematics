@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.1">
+<eagle version="6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -126,12 +126,6 @@
 <wire x1="14.5" y1="-0.5" x2="14.5" y2="3" width="0" layer="20"/>
 <wire x1="14.5" y1="3" x2="21" y2="3" width="0" layer="20"/>
 <wire x1="21" y1="3" x2="21" y2="-0.5" width="0" layer="20"/>
-<rectangle x1="1" y1="26.5" x2="2" y2="27.5" layer="16"/>
-<rectangle x1="1" y1="26.5" x2="2" y2="27.5" layer="1"/>
-<rectangle x1="22" y1="0.5" x2="23" y2="1.5" layer="1"/>
-<rectangle x1="22" y1="0.5" x2="23" y2="1.5" layer="16"/>
-<rectangle x1="3" y1="0.5" x2="4" y2="1.5" layer="16"/>
-<rectangle x1="3" y1="0.5" x2="4" y2="1.5" layer="1"/>
 </plain>
 <libraries>
 <library name="con-hirose">
@@ -206,7 +200,7 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules>
+<designrules name="default">
 <description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 Die Standard-Design-Rules sind so gewählt, dass sie für 
@@ -391,12 +385,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="GND">
 <contactref element="CON1" pad="15"/>
-<contactref element="CON1" pad="16"/>
 <contactref element="CON1" pad="12"/>
 <contactref element="CON1" pad="6"/>
-<wire x1="14.81" y1="15.25" x2="11.19" y2="15.25" width="0" layer="19" extent="16-16"/>
-<wire x1="14.81" y1="15.75" x2="14.81" y2="15.25" width="0" layer="19" extent="16-16"/>
 <wire x1="14.81" y1="13.75" x2="14.81" y2="15.25" width="0" layer="19" extent="16-16"/>
+<wire x1="11.19" y1="15.25" x2="14.81" y2="15.25" width="0" layer="19" extent="16-16"/>
 </signal>
 <signal name="INT1">
 <contactref element="CON1" pad="13"/>
