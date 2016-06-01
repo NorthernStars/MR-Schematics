@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
@@ -254,54 +254,6 @@ Include : &lt;br&gt;
 con-hirose-df12d(3.0)60dp0.5v80.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;
 con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;</description>
 <packages>
-<package name="DF12-20DP">
-<smd name="1" x="-2.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="2" x="-1.75" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="3" x="-1.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="4" x="-0.75" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="5" x="-0.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="6" x="0.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="7" x="0.75" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="8" x="1.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="9" x="1.75" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="10" x="2.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="11" x="2.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="12" x="1.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="13" x="1.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="14" x="0.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="15" x="0.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="16" x="-0.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="17" x="-0.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="18" x="-1.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="19" x="-1.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<smd name="20" x="-2.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
-<rectangle x1="-2.5" y1="-0.75" x2="2.5" y2="0.75" layer="39"/>
-<rectangle x1="-2.5" y1="-0.75" x2="2.5" y2="0.75" layer="41"/>
-<wire x1="-3.6" y1="1.9" x2="3.6" y2="1.9" width="0.127" layer="21"/>
-<wire x1="3.6" y1="1.9" x2="3.6" y2="0.3" width="0.127" layer="21"/>
-<wire x1="3.6" y1="0.3" x2="3.6" y2="-0.35" width="0.05" layer="21"/>
-<wire x1="3.6" y1="-0.35" x2="3.6" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="3.6" y1="-1.9" x2="-3.6" y2="-1.9" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-1.9" x2="-3.6" y2="-0.75" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-0.75" x2="-3.6" y2="-0.35" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-0.35" x2="-3.6" y2="0.3" width="0.05" layer="21"/>
-<wire x1="-3.6" y1="0.3" x2="-3.6" y2="0.75" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="0.75" x2="-3.6" y2="1.9" width="0.127" layer="21"/>
-<wire x1="-2.85" y1="1.225" x2="-2.85" y2="0.3" width="0.127" layer="21"/>
-<wire x1="-2.85" y1="0.3" x2="-2.85" y2="-0.35" width="0.05" layer="21"/>
-<wire x1="-2.85" y1="-0.35" x2="-2.85" y2="-1.225" width="0.127" layer="21"/>
-<wire x1="-2.85" y1="-1.225" x2="2.85" y2="-1.225" width="0.127" layer="21"/>
-<wire x1="2.85" y1="-1.225" x2="2.85" y2="-0.35" width="0.127" layer="21"/>
-<wire x1="2.85" y1="-0.35" x2="2.85" y2="0.3" width="0.05" layer="21"/>
-<wire x1="2.85" y1="0.3" x2="2.85" y2="1.225" width="0.127" layer="21"/>
-<wire x1="2.85" y1="1.225" x2="-2.85" y2="1.225" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="0.3" x2="-2.85" y2="0.3" width="0.127" layer="21"/>
-<wire x1="-3.6" y1="-0.35" x2="-2.85" y2="-0.35" width="0.127" layer="21"/>
-<wire x1="2.85" y1="0.3" x2="3.6" y2="0.3" width="0.127" layer="21"/>
-<wire x1="2.85" y1="-0.35" x2="3.6" y2="-0.35" width="0.127" layer="21"/>
-<text x="-3.5" y="3" size="1.27" layer="25">&gt;NAME</text>
-<text x="-3.5" y="-4.25" size="1.27" layer="25">&gt;VALUE</text>
-</package>
 <package name="DF12-20DS">
 <smd name="1" x="-2.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
 <smd name="2" x="-1.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
@@ -355,6 +307,66 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <wire x1="4" y1="0.75" x2="3.6" y2="0.75" width="0.05" layer="21"/>
 <text x="-3.5" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.5" y="-4.25" size="1.27" layer="25">&gt;VALUE</text>
+<hole x="-3.3" y="1.5" drill="0.6"/>
+<hole x="3.3" y="1.5" drill="0.6"/>
+<smd name="T1" x="-4" y="0" dx="1.8" dy="0.8" layer="1" rot="R90"/>
+<smd name="T2" x="4" y="0" dx="1.8" dy="0.8" layer="1" rot="R90"/>
+</package>
+<package name="DF12-20DP">
+<smd name="1" x="-2.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="2" x="-1.75" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="3" x="-1.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="4" x="-0.75" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="5" x="-0.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="6" x="0.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="7" x="0.75" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="8" x="1.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="9" x="1.75" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="10" x="2.25" y="-1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="11" x="2.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="12" x="1.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="13" x="1.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="14" x="0.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="15" x="0.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="16" x="-0.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="17" x="-0.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="18" x="-1.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="19" x="-1.75" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<smd name="20" x="-2.25" y="1.81" dx="0.32" dy="1.62" layer="1"/>
+<rectangle x1="-2.5" y1="-0.75" x2="2.5" y2="0.75" layer="39"/>
+<rectangle x1="-2.5" y1="-0.75" x2="2.5" y2="0.75" layer="41"/>
+<wire x1="-3.6" y1="1.9" x2="3.6" y2="1.9" width="0.127" layer="21"/>
+<wire x1="3.6" y1="1.9" x2="3.6" y2="0.3" width="0.127" layer="21"/>
+<wire x1="3.6" y1="0.3" x2="3.6" y2="-0.35" width="0.05" layer="21"/>
+<wire x1="3.6" y1="-0.35" x2="3.6" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="3.6" y1="-1.9" x2="-3.6" y2="-1.9" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-1.9" x2="-3.6" y2="-0.35" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-0.35" x2="-3.6" y2="0.3" width="0.05" layer="21"/>
+<wire x1="-3.6" y1="0.3" x2="-3.6" y2="1.9" width="0.127" layer="21"/>
+<wire x1="-2.85" y1="1.225" x2="-2.85" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-2.85" y1="0.3" x2="-2.85" y2="-0.35" width="0.05" layer="21"/>
+<wire x1="-2.85" y1="-0.35" x2="-2.85" y2="-1.225" width="0.127" layer="21"/>
+<wire x1="-2.85" y1="-1.225" x2="2.85" y2="-1.225" width="0.127" layer="21"/>
+<wire x1="2.85" y1="-1.225" x2="2.85" y2="-0.35" width="0.127" layer="21"/>
+<wire x1="2.85" y1="-0.35" x2="2.85" y2="0.3" width="0.05" layer="21"/>
+<wire x1="2.85" y1="0.3" x2="2.85" y2="1.225" width="0.127" layer="21"/>
+<wire x1="2.85" y1="1.225" x2="-2.85" y2="1.225" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="0.3" x2="-2.85" y2="0.3" width="0.127" layer="21"/>
+<wire x1="-3.6" y1="-0.35" x2="-2.85" y2="-0.35" width="0.127" layer="21"/>
+<wire x1="2.85" y1="0.3" x2="3.6" y2="0.3" width="0.127" layer="21"/>
+<wire x1="2.85" y1="-0.35" x2="3.6" y2="-0.35" width="0.127" layer="21"/>
+<text x="-3.5" y="3" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.5" y="-4.25" size="1.27" layer="25">&gt;VALUE</text>
+<hole x="-3.3" y="1.5" drill="0.6"/>
+<hole x="3.3" y="1.5" drill="0.6"/>
+<smd name="T1" x="-4" y="0" dx="1.8" dy="0.8" layer="1" rot="R90"/>
+<smd name="T2" x="4" y="0" dx="1.8" dy="0.8" layer="1" rot="R90"/>
+<wire x1="-3.6" y1="0.75" x2="-4" y2="0.75" width="0.05" layer="21"/>
+<wire x1="-4" y1="0.75" x2="-4" y2="-0.75" width="0.05" layer="21"/>
+<wire x1="-4" y1="-0.75" x2="-3.6" y2="-0.75" width="0.05" layer="21"/>
+<wire x1="3.6" y1="-0.75" x2="4" y2="-0.75" width="0.05" layer="21"/>
+<wire x1="4" y1="-0.75" x2="4" y2="0.75" width="0.05" layer="21"/>
+<wire x1="4" y1="0.75" x2="3.6" y2="0.75" width="0.05" layer="21"/>
 </package>
 </packages>
 <symbols>
