@@ -2,7 +2,7 @@ LiPo-Charger MultiBoard
 =======================
 This charger consists of several small 50x50mm board that can get connected to each other to build a charger station of your preferred size.
 * The charger board includes charging circuits for charging two LiPo batteries with ~200mA/battery.
-* The supply board is for connecting the charger boards to a 5V power suplly.
+* The supply board is for connecting the charger boards to a 5V power suplly. Maximum output current ist 5.0A. It's recommended to use max. 10 charger boards at one supply board.
 
 Order online
 ------------
