@@ -1,0 +1,7 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"13";"";"LEDCHIPLED_0603";"CHIPLED_0603";"LED1, LED3, LED5, LED7, LED9, LED11, LED13, LED15, LED17, LED19, LED20, LED21, LED22";"LED";"";
+"1";"1K";"R-EU_R0603";"R0603";"R1";"RESISTOR, European symbol";"";
+"2";"1K8";"R-EU_R0603";"R0603";"R2, R3";"RESISTOR, European symbol";"";
+"11";"240R";"R-EU_R0603";"R0603";"R4, R5, R6, R7, R8, R9, R10, R11, R12, R13, R21";"RESISTOR, European symbol";"";
+"1";"DF12-20DS";"DF12-20DS";"DF12-20DS";"CON1";"HRS-Hirose DF12-Series";"";
+"1";"PCA9552PW";"PCA9552PW";"TSSOP24";"IC1";"16-bit I 2 C-bus LED driver with programmable blink rates";"";

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -86,7 +86,7 @@
 <rectangle x1="35.56" y1="88.9" x2="41.91" y2="96.52" layer="16" rot="R180"/>
 <text x="2.54" y="82.55" size="1.778" layer="25">VCC</text>
 <text x="2.54" y="69.85" size="1.778" layer="25">GND</text>
-<text x="15.24" y="1.27" size="1.778" layer="25">NorthernStars
+<text x="15.24" y="1.27" size="1.778" layer="25">FH Kiel
 IR-Splitter
 v1.0.0</text>
 </plain>
@@ -1865,6 +1865,9 @@ design rules under a new name.</description>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>

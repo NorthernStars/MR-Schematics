@@ -1,0 +1,11 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"4";"";"PINHD-1X02_2.54-90°";"1X02/90";"FEMALE_B, FEMALE_R, MALE_L, MALE_T";"PIN HEADER";"";
+"8";"";"PINHD-1X04_2.54-90°";"1X04/90";"FEMALE_BL, FEMALE_BR, FEMALE_RB, FEMALE_RT, MALE_LB, MALE_LT, MALE_TL, MALE_TR";"PIN HEADER";"";
+"2";"100n";"C-EUC1206";"C1206";"C1, C2";"CAPACITOR, European symbol";"";
+"1";"100µ";"CPOL-EUUD-6,3X8,8";"UD-6,3X5,8_NICHICON";"C3";"POLARIZED CAPACITOR, European symbol";"";
+"2";"1k8";"R-EU_R1206";"R1206";"R2, R3";"RESISTOR, European symbol";"";
+"1";"220µ";"CPOL-EUUD-6,3X7,7";"UD-6,3X7,7_NICHICON";"C4";"POLARIZED CAPACITOR, European symbol";"";
+"1";"250-202";"250-202";"P-250-202";"SUPPLY";"Serie 250,  1-Leiter-Klemmenleiste für Leiterplatten 1 Lötstift/Pol versetzt / Series 250,  1-conductor PCB terminal strip 1 solder pin/pole, staggeredPolzahl / Pole No.: 2 Rastermaß / Pitch: 3.5 mmBemessungsspannung / Rated Voltage: 320  VNennstrom / Nominal Current: 8  ALeiterquerschnitt / Conductor Size: 0.2 - 1.5 mm²Anschlusstechnik / Connection Technology: Steckklemm-Anschluss Lötstiftlänge: / Solder Pin Length: 3.6 mmLeitereinführung (zur Platine) / Conductor entry angle (to PCB): 45 °Farbe / Color: grau / gray Stand: 01.01.2012. Die jeweils aktuellen Daten zu diesem Artikel finden Sie in unserem Produktkatalog, den Sie unter www.wago.com einsehen können.  As of: 01/01/2012. Please find the newest data for this article in our product catalogue, which can be viewed under www.wago.com.";"";
+"1";"470R";"R-EU_R1206";"R1206";"R1";"RESISTOR, European symbol";"";
+"1";"AP1084D33";"AP1084";"TO252";"IC1";"AP1084";"";
+"1";"green";"LEDCHIPLED_1206";"CHIPLED_1206";"LED1";"LED";"";

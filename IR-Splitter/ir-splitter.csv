@@ -1,0 +1,12 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"10";"";"3,81/1,4";"3,81/1,4";"IR-OUT1, IR-OUT2, IR-OUT3, IR-OUT4, IR-OUT5, IR-OUT6, IR-OUT7, IR-OUT8, IR-OUT9, IR-OUT10";"THROUGH-HOLE PAD";"";
+"1";"";"LEDCHIPLED_1206";"CHIPLED_1206";"LED1";"LED";"";
+"3";"1k";"R-EU_R1206";"R1206";"R1, R2, R3";"RESISTOR, European symbol";"";
+"1";"250-202";"250-202";"P-250-202";"SUPPLY";"Serie 250,  1-Leiter-Klemmenleiste für Leiterplatten 1 Lötstift/Pol versetzt / Series 250,  1-conductor PCB terminal strip 1 solder pin/pole, staggeredPolzahl / Pole No.: 2 Rastermaß / Pitch: 3.5 mmBemessungsspannung / Rated Voltage: 320  VNennstrom / Nominal Current: 8  ALeiterquerschnitt / Conductor Size: 0.2 - 1.5 mm²Anschlusstechnik / Connection Technology: Steckklemm-Anschluss Lötstiftlänge: / Solder Pin Length: 3.6 mmLeitereinführung (zur Platine) / Conductor entry angle (to PCB): 45 °Farbe / Color: grau / gray Stand: 01.01.2012. Die jeweils aktuellen Daten zu diesem Artikel finden Sie in unserem Produktkatalog, den Sie unter www.wago.com einsehen können.  As of: 01/01/2012. Please find the newest data for this article in our product catalogue, which can be viewed under www.wago.com.";"";
+"1";"330R";"R-EU_R1206";"R1206";"R6";"RESISTOR, European symbol";"";
+"10";">100k";"R-EU_R1206";"R1206";"R4, R5, R7, R8, R9, R10, R11, R12, R13, R14";"RESISTOR, European symbol";"";
+"2";"BC548B";"BC548B";"TO92-EBC";"Q1, Q2";"NPN Transistor";"";
+"1";"IR-IN-DATA";"3,81/1,4";"3,81/1,4";"IR_DATA";"THROUGH-HOLE PAD";"";
+"1";"IR-IN-GND";"3,81/1,4";"3,81/1,4";"GND";"THROUGH-HOLE PAD";"";
+"10";"IRFR024N";"IRLR3915PBF";"D-PAK";"T1, T2, T3, T4, T5, T6, T7, T8, T9, T10";"";"";
+"4";"MOUNT-PAD-SQUARE4.5";"MOUNT-PAD-SQUARE4.5";"4,5-PAD-SQUARE";"H1, H2, H3, H4";"MOUNTING PAD, square";"";

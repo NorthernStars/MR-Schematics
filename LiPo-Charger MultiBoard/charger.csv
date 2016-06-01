@@ -1,0 +1,10 @@
+"Qty";"Value";"Device";"Package";"Parts";"Description";"";
+"4";"";"PINHD-1X02_2.54-90°";"1X02/90";"FEMALE_B, FEMALE_R, MALE_L, MALE_T";"PIN HEADER";"";
+"8";"";"PINHD-1X04_2.54-90°";"1X04/90";"FEMALE_BL, FEMALE_BR, FEMALE_RB, FEMALE_RT, MALE_LB, MALE_LT, MALE_TL, MALE_TR";"PIN HEADER";"";
+"2";"1k8";"R-EU_R1206";"R1206";"R5, R6";"RESISTOR, European symbol";"";
+"2";"4.7µ, 5V";"C-EUC1206";"C1206";"C1, C2";"CAPACITOR, European symbol";"";
+"2";"470R";"R-EU_R1206";"R1206";"R1, R3";"RESISTOR, European symbol";"";
+"2";"5k6";"R-EU_R1206";"R1206";"R2, R4";"RESISTOR, European symbol";"";
+"1";"DF12-20DS";"DF12-20DS";"DF12-20DS";"BOT_CON";"HRS-Hirose DF12-Series";"";
+"2";"MCP73832T";"MCP73832T-2DCI/OT";"SOT95P300X145-5N";"IC1, IC2";"IC, BATT CHARGER, Li-Ion Li-Polymer, 500 mA";"";
+"2";"red";"LEDCHIPLED_1206";"CHIPLED_1206";"LED1, LED2";"LED";"";
