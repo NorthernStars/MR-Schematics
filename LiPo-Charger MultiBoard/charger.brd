@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.4">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -100,11 +100,13 @@
 <wire x1="14" y1="10" x2="25" y2="10" width="0.4064" layer="21"/>
 <wire x1="25" y1="10" x2="25" y2="7.5" width="0.4064" layer="21"/>
 <text x="18.415" y="7.62" size="1.778" layer="21">IR</text>
-<text x="19.685" y="40.64" size="1.27" layer="21">NorthernStars</text>
-<text x="15.875" y="38.735" size="1.27" layer="21">LiPo-Charger MultiBoard</text>
-<text x="15.875" y="36.83" size="1.27" layer="21">v. 0.0.1a</text>
+<text x="22.225" y="40.64" size="1.27" layer="21" font="vector" ratio="15">mrShark</text>
+<text x="13.97" y="38.735" size="1.27" layer="21" font="vector" ratio="15">LiPo-Charger MultiBoard</text>
+<text x="13.97" y="36.83" size="1.27" layer="21" font="vector" ratio="15">v. 0.0.1</text>
 <text x="46.355" y="31.75" size="1.016" layer="51" font="vector" ratio="15">1</text>
 <text x="46.355" y="17.78" size="1.016" layer="51" font="vector" ratio="15">2</text>
+<text x="1.27" y="17.145" size="1.016" layer="25" font="vector" ratio="15">Fachhochschule Kiel
+www.northern-stars.de</text>
 </plain>
 <libraries>
 <library name="microchip">
@@ -1402,6 +1404,10 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <wire x1="4" y1="0.75" x2="3.6" y2="0.75" width="0.05" layer="21"/>
 <text x="-3.5" y="3" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.5" y="-4.25" size="1.27" layer="25">&gt;VALUE</text>
+<hole x="-3.3" y="1.5" drill="0.6"/>
+<hole x="3.3" y="1.5" drill="0.6"/>
+<smd name="T1" x="-4" y="0" dx="1.8" dy="0.8" layer="1" rot="R90"/>
+<smd name="T2" x="4" y="0" dx="1.8" dy="0.8" layer="1" rot="R90"/>
 </package>
 </packages>
 </library>
@@ -1490,6 +1496,9 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -1957,4 +1966,10 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 </signals>
 </board>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+</compatibility>
 </eagle>
