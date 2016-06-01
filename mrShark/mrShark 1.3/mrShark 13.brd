@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1977,107 +1977,85 @@ con-hirose.lbr from Bob Starr &amp;lt;rtzaudio@mindspring.com&amp;gt;&lt;br&gt;<
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="default">
-<description language="de">&lt;font size=&quot;2&quot;&gt;&lt;font color= &quot;blue&quot;&gt;&lt;b&gt;Hinweise zum LeitOn - Standard-Eagle-DRU - 1- und  2-Lagen DK - Rev 2.0&lt;/font&gt;&lt;/b&gt;
+<designrules name="dirt_cheap_dirty_boards.v1">
+<description language="en">&lt;b&gt;Dirty Cheap Dirty Board Design Rules&lt;/b&gt;
 &lt;br&gt;
-Diese DRU-Datei enthält viele erforderliche Design Einstellungen, damit Ihre Standardleiterplatte bei uns fehlerfrei und ohne Zusatzkosten produziert werden kann. Die Optionen Shapes und Misc sind nicht relevant und der minimale und maximale Wert für Roundness Shapes kann frei gewählt werden. Nach unten abweichende Design-Regeln sind möglich, können jedoch Aufpreise erfordern. Geringere Vorgaben sind unter Umständen möglich. Hier sprechen Sie uns bitte an oder zeigen uns das entsprechende Layout. Ferner ist es bei einfachen Layouts nicht zwingend sinnvoll, alles mit diesen DRU-Minimalvorgaben zu layouten. Wenn es der Platz erlaubt ist es sinnvoller, breitere Abstände, Strukturen und Bohrungen einzuplanen, so dass eine reibungslose Fertigung garantiert werden kann.
-&lt;br&gt;&lt;br&gt;
-&lt;b&gt;&lt;font color= &quot;blue&quot;&gt;Übersicht zum LeitOn-Standard-DRU&lt;/font&gt;&lt;/b&lt;&lt;br&gt;&lt;br&gt;
-Minimale Leiterbahnbreite/-abstand: &lt;b&gt;0,15 mm&lt;/b&gt;&lt;br&gt;
-Minimale Kupferschrift: &lt;b&gt;0,2 mm&lt;/b&gt; (empfohlen)&lt;br&gt;
-Kleinster Bohrdurchmesser: &lt;b&gt;0,3 mm&lt;/b&gt;&lt;br&gt;
-Standardfräser: &lt;b&gt;2,0 mm&lt;/b&gt;&lt;br&gt;
-Kleinster Fräser: &lt;b&gt;0,7 mm&lt;/b&gt;&lt;br&gt;
-Durchkontaktierte Fräsungen: &lt;b&gt;möglich&lt;/b&gt;&lt;br&gt;Kupferrestringe um DK-Bohrungen: &lt;b&gt;0,15 mm&lt;/b&gt;&lt;br&gt;
-Bestückungsdruck minimale Strichstärke:&lt;b&gt; 0,2 mm&lt;/b&gt;&lt;br&gt;&lt;br&gt;
-&lt;b&gt;&lt;font color= &quot;blue&quot;&gt;Wichtig:&lt;/font&gt;&lt;/b&gt; Verwenden Sie als Strichstärke für Masseflächen keine Strichstärken kleiner 0,1mm. Es entstehen sonst extrem große Datenmengen, weil Eagle die Massefläche stets mit Polygonen der gleichen Strichstärke füllt. Freistellungen und Strichstärken von Bestückungsdruck werden nicht im Eagle-DRC geprüft!
-
-&lt;/p&gt;
-&lt;/p&gt; &lt;p&gt;&lt;b&gt;&lt;font color= &quot;blue&quot;&gt;Ausgegebene Lagen &lt;/font&gt;&lt;/b&gt;&lt;br&gt;
-DK-Bohrungen: Drills (44)&lt;br&gt;
-Top-Kupfer: Top (1), Pads (17) und Vias (18)&lt;/b&gt;&lt;br&gt;
-Bot-Kupfer: Bot (16), Pads (17) und Vias (18)&lt;br&gt;
-Top Lötstopp: tStop (29)&lt;br&gt;
-Bot Lötstopp: bStop (30)&lt;br&gt;
-Kontur: Dimension (20) und Milling (46)&lt;br&gt;
-NDK-Bohrungen: Holes (45)&lt;br&gt;
-DK-Fräsungen: Milling (46)&lt;br&gt;
-Bestückungsdruck Top: tPlace (21) und tNames (25)&lt;br&gt;
-Bestückungsdruck Bot: bPlace (22) und bNames (22)&lt;br&gt;
-Paste Top: tCream (31)&lt;br&gt;
-Paste Bot: bCream (32)&lt;br&gt;&lt;br&gt;
-Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte explizit mit. &lt;/p&gt;&lt;a href=&quot;www.leiton.de&quot;&gt;Für Onlinekalkulation und mehr Informationen Besuchen Sie die LeitOn Website!&lt;/a&gt;&lt;/font size&gt;&lt;/font size&gt;</description>
+&lt;br&gt;Min width/Spacing: 5/5mil
+&lt;br&gt;Min diameter of finished hole 12mil</description>
 <param name="layerSetup" value="(1*16)"/>
-<param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
-<param name="mtIsolate" value="1.5mm 0.71mm 0.36mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.36mm"/>
+<param name="mtCopper" value="0.035mm 0.0175mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.0175mm 0.035mm"/>
+<param name="mtIsolate" value="1.5mm 1.1mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
 <param name="mdWireWire" value="5mil"/>
 <param name="mdWirePad" value="5mil"/>
 <param name="mdWireVia" value="5mil"/>
 <param name="mdPadPad" value="5mil"/>
 <param name="mdPadVia" value="5mil"/>
 <param name="mdViaVia" value="5mil"/>
-<param name="mdSmdPad" value="5mil"/>
-<param name="mdSmdVia" value="5mil"/>
-<param name="mdSmdSmd" value="5mil"/>
-<param name="mdViaViaSameLayer" value="0.5mm"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
+<param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
-<param name="mdCopperDimension" value="5mil"/>
-<param name="mdDrill" value="5mil"/>
+<param name="mdCopperDimension" value="10mil"/>
+<param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
 <param name="msWidth" value="5mil"/>
-<param name="msDrill" value="0.2mm"/>
-<param name="msMicroVia" value="0.2mm"/>
-<param name="msBlindViaRatio" value="1"/>
-<param name="rvPadTop" value="0"/>
-<param name="rvPadInner" value="0"/>
-<param name="rvPadBottom" value="0"/>
-<param name="rvViaOuter" value="0"/>
-<param name="rvViaInner" value="0"/>
-<param name="rvMicroViaOuter" value="0"/>
-<param name="rvMicroViaInner" value="0"/>
-<param name="rlMinPadTop" value="0.15mm"/>
-<param name="rlMaxPadTop" value="99mm"/>
-<param name="rlMinPadInner" value="0.15mm"/>
-<param name="rlMaxPadInner" value="99mm"/>
-<param name="rlMinPadBottom" value="0.15mm"/>
-<param name="rlMaxPadBottom" value="99mm"/>
-<param name="rlMinViaOuter" value="0.15mm"/>
-<param name="rlMaxViaOuter" value="99mm"/>
-<param name="rlMinViaInner" value="0.15mm"/>
-<param name="rlMaxViaInner" value="99mm"/>
-<param name="rlMinMicroViaOuter" value="0.15mm"/>
-<param name="rlMaxMicroViaOuter" value="99mm"/>
-<param name="rlMinMicroViaInner" value="0.15mm"/>
-<param name="rlMaxMicroViaInner" value="99mm"/>
+<param name="msDrill" value="12mil"/>
+<param name="msMicroVia" value="12mil"/>
+<param name="msBlindViaRatio" value="0.5"/>
+<param name="rvPadTop" value="0.25"/>
+<param name="rvPadInner" value="0.25"/>
+<param name="rvPadBottom" value="0.25"/>
+<param name="rvViaOuter" value="0.25"/>
+<param name="rvViaInner" value="0.25"/>
+<param name="rvMicroViaOuter" value="0.25"/>
+<param name="rvMicroViaInner" value="0.25"/>
+<param name="rlMinPadTop" value="10mil"/>
+<param name="rlMaxPadTop" value="20mil"/>
+<param name="rlMinPadInner" value="10mil"/>
+<param name="rlMaxPadInner" value="20mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
+<param name="rlMaxPadBottom" value="20mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
+<param name="rlMaxViaOuter" value="20mil"/>
+<param name="rlMinViaInner" value="6mil"/>
+<param name="rlMaxViaInner" value="20mil"/>
+<param name="rlMinMicroViaOuter" value="4mil"/>
+<param name="rlMaxMicroViaOuter" value="20mil"/>
+<param name="rlMinMicroViaInner" value="4mil"/>
+<param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
 <param name="psFirst" value="0"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
-<param name="mvStopFrame" value="0"/>
+<param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="0.075mm"/>
-<param name="mlMaxStopFrame" value="0.075mm"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="0mil"/>
+<param name="mlViaStopLimit" value="25mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
-<param name="slThermalIsolate" value="0.2mm"/>
+<param name="slThermalIsolate" value="10mil"/>
 <param name="slThermalsForVias" value="0"/>
 <param name="dpMaxLengthDifference" value="10mm"/>
 <param name="dpGapFactor" value="2.5"/>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="1"/>
+<param name="checkRestrict" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
 <autorouter>
 <pass name="Default">
 <param name="RoutingGrid" value="50mil"/>
+<param name="AutoGrid" value="1"/>
+<param name="Efforts" value="0"/>
+<param name="TopRouterVariant" value="1"/>
 <param name="tpViaShape" value="round"/>
 <param name="PrefDir.1" value="|"/>
 <param name="PrefDir.2" value="0"/>
@@ -2548,7 +2526,6 @@ Sollten andere Lagen belegt und relevant sein, so teilen Sie uns dies bitte expl
 <wire x1="6.223" y1="9.779" x2="6.35" y2="9.906" width="0.127" layer="16"/>
 <wire x1="4.953" y1="9.779" x2="4.953" y2="9.525" width="0.127" layer="16"/>
 <via x="1.143" y="13.716" extent="1-16" drill="0.2" shape="octagon"/>
-<wire x1="13" y1="25.319" x2="12.827" y2="25.146" width="0.635" layer="16"/>
 <wire x1="22.82" y1="12.232" x2="22.987" y2="12.065" width="0.635" layer="16"/>
 <wire x1="10.415" y1="3.43" x2="10.287" y2="3.302" width="0.635" layer="16"/>
 <via x="9.017" y="3.683" extent="1-16" drill="0.2" shape="octagon"/>
