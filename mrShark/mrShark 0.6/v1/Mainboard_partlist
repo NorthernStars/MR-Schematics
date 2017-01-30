@@ -1,0 +1,23 @@
+Partlist
+
+Exported from Mainboard_V1.sch at 08.11.16 16:35
+
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value           Device               Package               Library       Sheet
+
+LED1                     LEDCHIP-LED0805      CHIP-LED0805          led           2
+LED2                     LEDCHIP-LED0805      CHIP-LED0805          led           2
+LED3                     LEDCHIP-LED0805      CHIP-LED0805          led           2
+NODEMCU  ESP12E_DEVKIT   ESP12E_DEVKIT        ESP12E_DEVKIT         ESP12E_DEVKIT 1
+R1       1k8             R-EU_R0805           R0805                 rcl           1
+R2       1k8             R-EU_R0805           R0805                 rcl           1
+R3                       R-EU_R0805W          R0805W                rcl           2
+R4                       R-EU_R0805W          R0805W                rcl           2
+R5                       R-EU_R0805W          R0805W                rcl           2
+U$1      STM32F429ZIT    STM32F429ZIT         STM32F429ZIT          Tim           1
+U$2                      ADAPTER_BLANKO_3X5B1 ADAPTER_BLANKO_3X5_B1 Tim           1
+U$3                      ADAPTER_BLANKO_3X5B1 ADAPTER_BLANKO_3X5_B1 Tim           1
+X1       250-504/000-002 250-504/000-002      P-250-504             IDWlib        2

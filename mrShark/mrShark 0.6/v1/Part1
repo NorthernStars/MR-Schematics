@@ -1,0 +1,35 @@
+Partlist
+
+Exported from ultrasonic v1.brd at 21.11.2016 15:57
+
+EAGLE Version 7.6.0 Copyright (c) 1988-2016 CadSoft
+
+Assembly variant: 
+
+Part     Value          Package               Library  Position (mil)        Orientation
+
+C1       100n           C0805                 rcl      (600 1412.5)          R0
+IC1      ATtiny48       TQFP32-08             atmega8  (600 1500)            MR270
+ISP                     ML10L                 con-ml   (625 1875)            R0
+LED1     green          CHIP-LED0805          led      (100 1900)            R270
+LED2     rot            CHIP-LED0805          led      (1075 1900)           R90
+LED3     rot            CHIP-LED0805          led      (600 1475)            R270
+R1       1k             R0805W                rcl      (312.5 1712.5)        R270
+R2       1k8            R0805W                rcl      (187.5 1712.5)        R270
+R3       68R            R0805W                rcl      (100 1825)            R180
+R4       150R           R0805W                rcl      (1075 1825)           R180
+R5       1k8            R0805W                rcl      (250 1712.5)          R270
+R6       150R           R0805W                rcl      (600 1537.5)          R0
+SERVO1                  1X03                  pinhead  (350 1000)            R0
+SERVO2                  1X03                  pinhead  (350 825)             R0
+SERVO3                  1X03                  pinhead  (350 650)             R0
+SERVO4                  1X03                  pinhead  (350 475)             R0
+SERVO5                  1X03                  pinhead  (350 300)             R0
+SERVO6                  1X03                  pinhead  (350 125)             R0
+U$1                     ADAPTER_BLANKO_3X5_B2 Tim      (0 0)                 R0
+US1                     1X04                  pinhead  (800 1000)            R0
+US2                     1X04                  pinhead  (800 825)             R0
+US3                     1X04                  pinhead  (800 650)             R0
+US4                     1X04                  pinhead  (800 475)             R0
+US5                     1X04                  pinhead  (800 300)             R0
+US6                     1X04                  pinhead  (800 125)             R0

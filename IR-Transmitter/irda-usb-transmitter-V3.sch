@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="7.2.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13787,7 +13787,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="H3" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="2.8"/>
-<part name="U$1" library="international" deviceset="IRLR3915PBF" device=""/>
+<part name="T1" library="international" deviceset="IRLR3915PBF" device=""/>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
 <part name="IC2" library="microchip" deviceset="MCP2120" device=""/>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -13843,12 +13843,12 @@ In this library the device names are the same as the pin names of the symbols, t
 <instance part="H2" gate="G$1" x="20.32" y="35.56"/>
 <instance part="H3" gate="G$1" x="20.32" y="27.94"/>
 <instance part="H4" gate="G$1" x="20.32" y="20.32"/>
-<instance part="U$1" gate="G$1" x="213.36" y="93.98"/>
+<instance part="T1" gate="G$1" x="213.36" y="93.98"/>
 <instance part="GND14" gate="1" x="33.02" y="78.74"/>
 <instance part="IC2" gate="G$1" x="127" y="45.72"/>
 <instance part="GND15" gate="1" x="147.32" y="10.16"/>
-<instance part="LED+" gate="G$1" x="236.22" y="121.92" rot="R180"/>
-<instance part="LED-" gate="G$1" x="236.22" y="111.76" rot="R180"/>
+<instance part="LED+" gate="G$1" x="236.22" y="124.46" rot="R180"/>
+<instance part="LED-" gate="G$1" x="236.22" y="109.22" rot="R180"/>
 <instance part="V+" gate="1" x="22.86" y="99.06"/>
 <instance part="GND" gate="1" x="22.86" y="86.36"/>
 <instance part="C3" gate="G$1" x="43.18" y="93.98"/>
@@ -13914,7 +13914,7 @@ In this library the device names are the same as the pin names of the symbols, t
 </segment>
 <segment>
 <wire x1="218.44" y1="83.82" x2="218.44" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="U$1" gate="G$1" pin="P$3"/>
+<pinref part="T1" gate="G$1" pin="P$3"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 </segment>
 <segment>
@@ -14017,12 +14017,13 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="IRLEDS-" class="0">
 <segment>
-<wire x1="233.68" y1="111.76" x2="218.44" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="111.76" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="LED-" gate="G$1" pin="P"/>
-<pinref part="U$1" gate="G$1" pin="P$2"/>
+<wire x1="218.44" y1="111.76" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="T1" gate="G$1" pin="P$2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
-<junction x="218.44" y="111.76"/>
+<pinref part="LED-" gate="G$1" pin="P"/>
+<wire x1="218.44" y1="109.22" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="109.22" x2="218.44" y2="109.22" width="0.1524" layer="91"/>
+<junction x="218.44" y="109.22"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -14071,7 +14072,7 @@ In this library the device names are the same as the pin names of the symbols, t
 <segment>
 <wire x1="200.66" y1="88.9" x2="205.74" y2="88.9" width="0.1524" layer="91"/>
 <label x="200.66" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
-<pinref part="U$1" gate="G$1" pin="G"/>
+<pinref part="T1" gate="G$1" pin="G"/>
 </segment>
 </net>
 <net name="VCCIO" class="0">
@@ -14169,12 +14170,13 @@ In this library the device names are the same as the pin names of the symbols, t
 </net>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LED+" gate="G$1" pin="P"/>
 <pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="233.68" y1="121.92" x2="218.44" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="218.44" y1="121.92" x2="218.44" y2="127" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="121.92" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="R3" gate="G$1" pin="2"/>
-<junction x="218.44" y="121.92"/>
+<pinref part="LED+" gate="G$1" pin="P"/>
+<wire x1="218.44" y1="124.46" x2="218.44" y2="127" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="124.46" x2="218.44" y2="124.46" width="0.1524" layer="91"/>
+<junction x="218.44" y="124.46"/>
 </segment>
 </net>
 </nets>
