@@ -1,0 +1,33 @@
+Partlist
+
+Exported from mrShark Adapter.sch at 28.03.17 11:17
+
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value                  Device                 Package          Library    Sheet
+
+C1       100n                   C-EUC0603              C0603            rcl        1
+CON1     DF12-20DS              DF12-20DS              DF12-20DS        con-hirose 1
+D1       PMEG2010EA             PMEG2010EAR            SOD323-R         diode      1
+D2       PMEG2010EA             PMEG2010EAR            SOD323-R         diode      1
+IC1      LM317MBSTT3            LM317MBSTT3            SOT223           v-reg      1
+IC2      MCP73832T-2DCI/OT      MCP73832T-2DCI/OT      SOT95P300X145-5N microchip  1
+IC3      MCP73832T-2DCI/OT      MCP73832T-2DCI/OT      SOT95P300X145-5N microchip  1
+IC4      FT232RQ                FT232RQ                QFN32            ftdichip   1
+ISP                             PINHD-2X03_2.54-SMD    2X03SMD          pinhead-2  1
+LED1     red                    LEDCHIP-LED0603        CHIP-LED0603     led        1
+LED2     red                    LEDCHIP-LED0603        CHIP-LED0603     led        1
+R1       100k                   R-EU_R0603             R0603            rcl        1
+R2       165k                   R-EU_R0603             R0603            rcl        1
+R3       130R                   R-EU_R0603             R0603            rcl        1
+R4       130R                   R-EU_R0603             R0603            rcl        1
+R5       130R                   R-EU_R0603             R0603            rcl        1
+R6       130R                   R-EU_R0603             R0603            rcl        1
+TP1      TPTP06SQ               TPTP06SQ               TP06SQ           testpad    1
+TP2      TPTP06SQ               TPTP06SQ               TP06SQ           testpad    1
+TP3      TPTP06SQ               TPTP06SQ               TP06SQ           testpad    1
+TP4      TPTP06SQ               TPTP06SQ               TP06SQ           testpad    1
+TP5      TPTP06SQ               TPTP06SQ               TP06SQ           testpad    1
+X1       MINI-USB-UX60SC-MB-5ST MINI-USB-UX60SC-MB-5ST UX60SC-MB-5ST    con-hirose 1
