@@ -125,7 +125,7 @@
 <text x="5.706" y="1.358" size="0.6096" layer="25" font="vector" ratio="15">LED-Marker
 v.1.0.0</text>
 <wire x1="0" y1="2.97" x2="0" y2="27.03" width="0" layer="20"/>
-<text x="17.272" y="3.556" size="0.8128" layer="25" ratio="15">IR</text>
+<text x="17.526" y="5.334" size="0.8128" layer="25" ratio="15">IR</text>
 <text x="4.318" y="9.906" size="0.6096" layer="25" ratio="15" rot="R90">Fachhochschule Kiel
 www.northern-stars.de</text>
 </plain>
@@ -1658,8 +1658,8 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="4.064" y="7.1755" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="R12" library="rcl" package="R0603" value="240R" x="14.986" y="6.096" smashed="yes" rot="R270">
-<attribute name="NAME" x="14.351" y="3.921" size="0.6096" layer="25"/>
-<attribute name="VALUE" x="14.351" y="3.175" size="0.6096" layer="27"/>
+<attribute name="NAME" x="12.319" y="6.207" size="0.6096" layer="25"/>
+<attribute name="VALUE" x="11.811" y="5.461" size="0.6096" layer="27"/>
 </element>
 <element name="LED22" library="led" package="CHIPLED_0603" value="" x="23.241" y="5.2705" locked="yes" smashed="yes" rot="R270">
 <attribute name="NAME" x="21.971" y="4.1275" size="0.6096" layer="25"/>
